@@ -8,7 +8,7 @@ function x = func_ldlt_solver(A,b)
 % A: (n,n) double
 %    S.P.D matrix to solve
 % b: (n,1) double
-%    left hand side vector
+%    right hand side vector
 % --------------------
 % Output
 % x: (n,1) double

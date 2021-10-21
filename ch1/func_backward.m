@@ -8,7 +8,7 @@ function x = func_backward(U,y)
 % U: (n,n) double
 %    upper triangular matrix
 % y: (n,1) double
-%    left hand side vector
+%    right hand side vector
 % --------------------
 % Output
 % x: (n,1) double

@@ -8,7 +8,7 @@ function x = func_lu_solver(A,b,method)
 % A: (n,n) double
 %    matrix to solve
 % b: (n,1) double
-%    left hand side vector
+%    right hand side vector
 % method: string, default="partial", optional
 %         method to LU factorization
 %         "raw" for LU factorization without pivoting

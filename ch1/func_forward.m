@@ -8,7 +8,7 @@ function x = func_forward(L,y)
 % L: (n,n) double
 %    lower triangular matrix
 % y: (n,1) double
-%    left hand side vector
+%    right hand side vector
 % --------------------
 % Output
 % x: (n,1) double
