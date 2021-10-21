@@ -1,16 +1,16 @@
 function [L,U,P,Q] = func_full_piv_lu(A)
 % FUNC_FULL_PIV_LU LU factorization with full pivoting.
-% Usage
 % --------------------
+% Usage
 % [L,U,P,Q] = FUNC_COMPLETEPIVLU(A) returns upper triangular matrix U, 
 % lower triangular matrix L and row/column permutation matrix P and Q 
 % such that P*A*Q=L*U.
-% Input
 % --------------------
+% Input
 % A: (n,n) double
 %    matrix to be PLU factorized, should be nonsingual
-% Output
 % --------------------
+% Output
 % L: (n,n) double
 %    unit lower triangular matrix
 % U: (n,n) double

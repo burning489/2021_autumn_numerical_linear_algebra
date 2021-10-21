@@ -1,16 +1,16 @@
 function x = func_forward(L,y)
 % FUNC_FORWARD Forward method for lower triangular matrix.
+% --------------------
 % Usage
-% --------------------
 % [X] = FUNC_FORWARD(L,Y) returns the solution X for L*X=Y.
-% Input
 % --------------------
+% Input
 % L: (n,n) double
 %    lower triangular matrix
 % y: (n,1) double
 %    left hand side vector
-% Output
 % --------------------
+% Output
 % x: (n,1) double
 %    solution to L*x=y
 

@@ -1,16 +1,16 @@
 function x = func_backward(U,y)
 % FUNC_BACKWARD Backward method for upper triangular matrix.
+% --------------------
 % Usage
-% --------------------
 %   [X] = FUNC_BACKWARD(U,Y) returns the solution X for U*X=Y.
-% Input
 % --------------------
+% Input
 % U: (n,n) double
 %    upper triangular matrix
 % y: (n,1) double
 %    left hand side vector
-% Output
 % --------------------
+% Output
 % x: (n,1) double
 %    solution to U*x=y
 

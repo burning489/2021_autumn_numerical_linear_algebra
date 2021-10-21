@@ -1,14 +1,14 @@
 function [L,U] = func_lu(A)
 % FUNC_LU LU factorization.
+% --------------------
 % Usage
-% --------------------
 % [L,U] = FUNC_LU(A) returns the LU of A without pivoting.
-% Input
 % --------------------
+% Input
 % A: (n,n) double
 %    matrix to be LU factorized, should be nonsingual
-% Output
 % --------------------
+% Output
 % L: (n,n) double
 %    unit lower triangular matrix
 % U: (n,n) double
@@ -21,7 +21,7 @@ assert(m == n);
 for i = 1:n-1
     if (abs(A(i,i)) < eps)
         % raise error if upper left element is close to 0
-        error("LU factorization failed.\nInput matrix is singular!");
+        error("LU factorization failed, upper left element is zero!");
     else
         A(i+1:n,i) = A(i+1:n,i)/A(i,i);
         A(i+1:n,i+1:n)=A(i+1:n,i+1:n) - A(i+1:n,i)*A(i,i+1:n);

@@ -1,16 +1,16 @@
 function [L,U,P] = func_partial_piv_lu(A)
 % FUNC_PARTIAL_PIV_LU LU factorization with partial pivoting.
-% Usage
 % --------------------
+% Usage
 % [L,U,P] = FUNC_PLU(A) returns upper triangular matrix U, 
 % lower triangular matrix L, and row permutation matrix P
 % such that P*A=L*U.
-% Input
 % --------------------
+% Input
 % A: (n,n) double
 %    matrix to be PLU factorized, should be nonsingual
-% Output
 % --------------------
+% Output
 % L: (n,n) double
 %    unit lower triangular matrix
 % U: (n,n) double
