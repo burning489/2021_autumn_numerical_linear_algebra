@@ -2,7 +2,7 @@
 
 ### MATLAB相关
 
-读者需要掌握MATLAB编程基础知识，该软件可从[武汉大学信息门户正版软件] (http://ca.whu.edu.cn/index.html)处获取，并通过学号注册账户激活，建议下载使用最新版本并阅读[软件自带帮助](https://www.mathworks.com/help/matlab/index.html)。
+读者需要掌握MATLAB编程基础知识，该软件可从[武汉大学信息门户正版软件]:(http://ca.whu.edu.cn/index.html)处获取，并通过学号注册账户激活，建议下载使用最新版本并阅读[软件自带帮助]:(https://www.mathworks.com/help/matlab/index.html)。
 
 ### 文件结构
 
