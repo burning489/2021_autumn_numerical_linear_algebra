@@ -1,4 +1,4 @@
-## 数值线性代数代码示例（目前更新第一章、第三章）
+## 数值线性代数代码示例（第一、三、四、五、六章）
 
 ### MATLAB相关
 
@@ -7,10 +7,7 @@
 处获取，并通过学号注册账户激活，建议下载使用最新版本并阅读
 [软件自带帮助]: (https://www.mathworks.com/help/matlab/index.html)
 
-
-
 ### 文件结构
-
 
 - 第一章
   - 矩阵分解
@@ -25,7 +22,7 @@
     - func_lu_solver, with "raw", "partial" and "full" options
     - func_cholesky_solver
     - func_ldlt_solver
-  - 示例文件和测试
+  - 示例和测试
     - demo_lu
     - demo_cholesky
     - demo_lu_cholesky, compare efficiency of LU factorization with parital pivoting, with full pivoting and Cholesky factorization.
@@ -40,7 +37,35 @@
     - func_ls_householder
   - 测试
     - test, test correctness of all functions in ch3
+- 第四章
+  - 迭代法
+    - func_jacobi, Jacobi iterative method
+    - func_gauss_seidel, Gauss-Seidel iterative method
+  - 测试
+    - test 和 test_convergence 数值验证课本134页习题1
+- 第五章
+  - 梯度法
+    - func_gradient_descent
+    - func_conjugate_gradient
+  - 测试
+    test
+- 第六章
+  - 幂法
+    - func_power 幂法
+    - func_shifted_power 带位移幂法
+    - func_inverse_power 反幂法
+    - func_shifted_inverse_power 带位移反幂法
+    - 示例和测试
+      - demo_power 使用收缩方法逐个计算特征值，见课本168页
+      - test
+- QR方法
+  - func_hessenberg 上Hessenberg化
+  - func_francis_qr 隐式双重位移QR迭代
+  - func_shur 隐式QR算法计算Schur分解
+  - func_eigval 计算矩阵特征值，在func_schur之上的简单封装
+  - 测试
+    - test 和MATLAB内置 eig 函数比较计算特征值
 
 ### 联系方式
 
-本仓库仍在更新中，目前已添加第一章和第三章的代码，如在阅读过程中发现错误或有新的建议，请邮件至zd1998@whu.edu.cn联系。
+目前已添加第一、三、四、五、六章的代码，如在阅读过程中发现错误或有新的建议，请邮件至zd1998@whu.edu.cn联系。
