@@ -58,13 +58,13 @@
     - 示例和测试
       - demo_power 使用收缩方法逐个计算特征值，见课本168页
       - test
-- QR方法
-  - func_hessenberg 上Hessenberg化
-  - func_francis_qr 隐式双重位移QR迭代
-  - func_shur 隐式QR算法计算Schur分解
-  - func_eigval 计算矩阵特征值，在func_schur之上的简单封装
-  - 测试
-    - test 和MATLAB内置 eig 函数比较计算特征值
+  - QR方法
+    - func_hessenberg 上Hessenberg化
+    - func_francis_qr 隐式双重位移QR迭代
+    - func_shur 隐式QR算法计算Schur分解
+    - func_eigval 计算矩阵特征值，在func_schur之上的简单封装
+    - 测试
+      - test 和MATLAB内置 eig 函数比较计算特征值
 
 ### 联系方式
 
