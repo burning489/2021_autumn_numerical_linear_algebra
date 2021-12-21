@@ -11,60 +11,67 @@
 
 - 第一章
   - 矩阵分解
-    - func_forward
-    - func_backward
-    - func_lu
-    - func_partial_piv_lu
-    - func_full_piv_lu
-    - func_cholesky
-    - func_ldlt
+    - [func_forward](./ch1/func_forward.m)
+    - [func_backward](./ch1/func_backward.m)
+    - [func_lu](./ch1/func_lu.m)
+    - [func_partial_piv_lu](./ch1/func_partial_piv_lu.m)
+    - [func_full_piv_lu](./ch1/func_full_piv_lu.m)
+    - [func_cholesky](./ch1/func_cholesky.m)
+    - [func_ldlt](./ch1/func_ldlt.m)
   - 求解方程组
-    - func_lu_solver, with "raw", "partial" and "full" options
-    - func_cholesky_solver
-    - func_ldlt_solver
+    - [func_lu_solver](./ch1/func_lu_solver.m) with "raw", "partial" and "full" options
+    - [func_cholesky_solver](./ch1/func_cholesky_solver.m)
+    - [func_ldlt_solver](./ch1/func_ldlt_solver.m)
   - 示例和测试
-    - demo_lu
-    - demo_cholesky
-    - demo_lu_cholesky, compare efficiency of LU factorization with parital pivoting, with full pivoting and Cholesky factorization.
-    - test, test correctness of all functions in ch1
+    - [demo_lu](./ch1/demo_lu.m)
+    - [demo_cholesky](./ch1/demo_cholesky.m)
+    - [demo_lu_cholesky](./ch1/demo_lu_cholesky.m) 比较LU，选主元，全主元和Cholesky分解的效率
+    - [test](./ch1/test.m) 测试正确性
 - 第三章
-  - func_householder, compute v and beta to generate Householder matrix
+  - [func_householder](./ch3/func_householder.m)
   - QR分解
-    - func_qr_gramschmidt
-    - func_qr_householder
+    - [func_qr_gramschmidt](./ch3/func_qr_gramschmidt.m)
+    - [func_qr_householder](./ch3/func_qr_householder.m)
   - 求解最小二乘问题
-    - func_ls_gramschmidt
-    - func_ls_householder
+    - [func_ls_gramschmidt](./ch3/func_ls_gramschmidt.m)
+    - [func_ls_householder](./ch3/func_ls_householder.m)
   - 测试
-    - test, test correctness of all functions in ch3
+    - [test](./ch3/test.m) 测试正确性
 - 第四章
   - 迭代法
-    - func_jacobi, Jacobi iterative method
-    - func_gauss_seidel, Gauss-Seidel iterative method
+    - [func_jacobi](./ch4/func_jacobi.m) Jacobi iterative method
+    - [func_gauss_seidel](./ch4/func_gauss_seidel.m) Gauss-Seidel iterative method
   - 测试
-    - test 和 test_convergence 数值验证课本134页习题1
+    - [test](./ch4/test.m) [test_convergence](./ch4/test_convergence.m) 数值验证课本134页习题1
 - 第五章
   - 梯度法
-    - func_gradient_descent
-    - func_conjugate_gradient
+    - [func_gradient_descent](./ch5/func_gradient_descent.m)
+    - [func_conjugate_gradient](./ch5/func_conjugate_gradient.m)
   - 测试
-    test
+    [test](./ch5/test.m)
 - 第六章
   - 幂法
-    - func_power 幂法
-    - func_shifted_power 带位移幂法
-    - func_inverse_power 反幂法
-    - func_shifted_inverse_power 带位移反幂法
+    - [func_power](./ch6/power_method/func_power.m) 幂法
+    - [func_shifted_power](./ch6/power_method/func_shifted_power.m) 带位移幂法
+    - [func_inverse_power](./ch6/power_method/func_inverse_power.m) 反幂法
+    - [func_shifted_inverse_power](./ch6/power_method/func_shifted_inverse_power.m) 带位移反幂法
     - 示例和测试
-      - demo_power 使用收缩方法逐个计算特征值，见课本168页
-      - test
+      - [demo_power](./ch6/power_method/demo_power.m) 使用收缩方法逐个计算特征值，见课本168页
+      - [test](./ch6/power_method/test.m)
 - QR方法
-  - func_hessenberg 上Hessenberg化
-  - func_francis_qr 隐式双重位移QR迭代
-  - func_shur 隐式QR算法计算Schur分解
-  - func_eigval 计算矩阵特征值，在func_schur之上的简单封装
+  - [func_hessenberg](./ch6/qr_method/func_hessenberg.m) 上Hessenberg化
+  - [func_francis_qr](./ch6/qr_method/func_francis_ar.m) 隐式双重位移QR迭代
+  - [func_shur](./ch6/qr_method/func_shur.m) 隐式QR算法计算Schur分解
+  - [func_eigval](./ch6/qr_method/func_eigval.m) 计算矩阵特征值，在func_schur之上的简单封装
   - 测试
-    - test 和MATLAB内置 eig 函数比较计算特征值
+    - [test](./ch6/qr_method/test.m) 和MATLAB内置 eig 函数比较计算特征值
+- 第七章
+  - [func_givens](./ch7/func_givens.m) Givens变换
+  - [func_householder_tridiag](./ch7/func_householder_tridiag.m) 使用Householder变换将对称矩阵三对角化
+  - [func_wilkinson_shift](./ch7/func_wilkinson_shift.m) 带Wilkinson位移的隐式对称QR迭代
+  - [func_sym_qr](./ch7/func_sym_qr.m) 求解对称矩阵特征值问题的QR方法
+  - [fun_sym_jacobi](./ch7/func_sym_jacobi.m) 求解对称矩阵特征值问题的Jacobi方法
+  - [test](./ch7/test.m) 简单测试
 
 ### 联系方式
 
