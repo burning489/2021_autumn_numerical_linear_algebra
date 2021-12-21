@@ -58,13 +58,13 @@
     - 示例和测试
       - [demo_power](./ch6/power_method/demo_power.m) 使用收缩方法逐个计算特征值，见课本168页
       - [test](./ch6/power_method/test.m)
-- QR方法
-  - [func_hessenberg](./ch6/qr_method/func_hessenberg.m) 上Hessenberg化
-  - [func_francis_qr](./ch6/qr_method/func_francis_ar.m) 隐式双重位移QR迭代
-  - [func_shur](./ch6/qr_method/func_shur.m) 隐式QR算法计算Schur分解
-  - [func_eigval](./ch6/qr_method/func_eigval.m) 计算矩阵特征值，在func_schur之上的简单封装
-  - 测试
-    - [test](./ch6/qr_method/test.m) 和MATLAB内置 eig 函数比较计算特征值
+  - QR方法
+    - [func_hessenberg](./ch6/qr_method/func_hessenberg.m) 上Hessenberg化
+    - [func_francis_qr](./ch6/qr_method/func_francis_ar.m) 隐式双重位移QR迭代
+    - [func_shur](./ch6/qr_method/func_shur.m) 隐式QR算法计算Schur分解
+    - [func_eigval](./ch6/qr_method/func_eigval.m) 计算矩阵特征值，在func_schur之上的简单封装
+    - 测试
+      - [test](./ch6/qr_method/test.m) 和MATLAB内置 eig 函数比较计算特征值
 - 第七章
   - [func_givens](./ch7/func_givens.m) Givens变换
   - [func_householder_tridiag](./ch7/func_householder_tridiag.m) 使用Householder变换将对称矩阵三对角化
